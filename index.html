@@ -16,22 +16,20 @@
                         <input class="header__field" type="text">
                         <button class="header__button" type="submit">Поиск</button>
                     </form>
-                    <div class="hidden-desktop">
-                        <a href=""><img src="./img/icon-search.svg"></a>
-                        <input id="header__toggle" type="checkbox" />
-                        <label class="header__button-burger" for="header__toggle">
-                            <span></span>
-                        </label>
-                    </div>
                 </div>
+                <a class="header__icon-search hidden-desktop" aria-label="open-popup" href="#popup"><img src="./img/icon-search.svg"></a>
+                <input class="hidden-desktop"  id="header__toggle" type="checkbox" />
+                <label class="header__button-burger hidden-desktop" for="header__toggle">
+                    <span></span>
+                </label>
                 <nav class="header__nav hidden-desktop">
                     <ul class="header__navigation-links">
-                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Аукционные каталоги</a></li>
-                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Коллекционирование</a></li>
-                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">КолоBook</a></li>
-                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Разное</a></li>
-                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Авторы</a></li>
-                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Контакты</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link link" href="#">Аукционные каталоги</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link link" href="#">Коллекционирование</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link link" href="#">КолоBook</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link link" href="#">Разное</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link link" href="#">Авторы</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link link" href="#">Контакты</a></li>
                     </ul>
                 </nav>
                 <h1 class="hidden">Издания Олега Пахмутова</h1>
@@ -153,6 +151,14 @@
             <footer class="footer">
                 <p class="footer__copyright">© <a class="footer__copyright-link" href="mailto:info@pakhmutov.ru">Олег Пахмутов,</a> 2009-2022.</p>
             </footer>
+
+            <div id="popup" class="popup">
+                <form method="get" class="header__search">
+                    <a href="#" aria-label="Close Modal" class="popup__close">X</a>
+                    <input class="header__field" type="text">
+                    <button class="header__button" type="submit">Поиск</button>
+                </form>
+            </div>
 
     </body>
 </html>
