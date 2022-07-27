@@ -28,6 +28,15 @@
     border: 1px solid #999;
 }
 
+.header__button {
+    border: none;
+    background: none;
+}
+
+.header__button:hover {
+    cursor: pointer;
+}
+
 .header__nav {
     border-bottom: 1px solid #999;
 
@@ -59,3 +68,6 @@
     padding: 0 10px;
 }
 
+.header__navigation-link:hover {
+    color: black;
+}

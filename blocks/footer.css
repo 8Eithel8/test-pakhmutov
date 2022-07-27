@@ -1,0 +1,21 @@
+.footer {
+    max-width: 820px;
+    border-top: 1px solid #999;
+    margin: 0 auto 30px auto;
+}
+
+.footer__copyright {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+.footer__copyright-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-decoration: none;
+}
+
+.footer__copyright-link:hover {
+    text-decoration: underline;
+}
