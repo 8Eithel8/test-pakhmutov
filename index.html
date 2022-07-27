@@ -12,15 +12,32 @@
             <header class="header">
                 <div class="header__container">
                     <img class="header__logo" src="./img/logo.png" alt="Издания Олега Пахмутова">
-                    <form method="get" class="header__search">
+                    <form method="get" class="header__search hidden-tap">
                         <input class="header__field" type="text">
                         <button class="header__button" type="submit">Поиск</button>
                     </form>
+                    <div class="hidden-desktop">
+                        <a href=""><img src="./img/icon-search.svg"></a>
+                        <input id="header__toggle" type="checkbox" />
+                        <label class="header__button-burger" for="header__toggle">
+                            <span></span>
+                        </label>
+                    </div>
                 </div>
+                <nav class="header__nav hidden-desktop">
+                    <ul class="header__navigation-links">
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Аукционные каталоги</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Коллекционирование</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">КолоBook</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Разное</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Авторы</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
                 <h1 class="hidden">Издания Олега Пахмутова</h1>
             </header>
             <main>
-                <nav class="navigation">
+                <nav class="navigation hidden-tap">
                     <ul class="navigation__links">
                         <li class="navigation__item"><a class="navigation__link link" href="#">Аукционные каталоги</a></li>
                         <li class="navigation__item"><a class="navigation__link link" href="#">Коллекционирование</a></li>
