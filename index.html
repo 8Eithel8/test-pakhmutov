@@ -17,7 +17,7 @@
                         <button class="header__button" type="submit">Поиск</button>
                     </form>
                 </div>
-                <a class="header__icon-search hidden-desktop" aria-label="open-popup" href="#popup"><img src="./img/icon-search.svg"></a>
+                <button type="button" class="header__icon-search hidden-desktop" aria-label="open-popup" href="#popup"></button>
                 <input class="hidden-desktop"  id="header__toggle" type="checkbox" />
                 <label class="header__button-burger hidden-desktop" for="header__toggle">
                     <span></span>
@@ -154,11 +154,11 @@
 
             <div id="popup" class="popup">
                 <form method="get" class="header__search">
-                    <a href="#" aria-label="Close Modal" class="popup__close">X</a>
                     <input class="header__field" type="text">
-                    <button class="header__button" type="submit">Поиск</button>
+                    <button class="header__button" type="submit" aria-label="Искать">Поиск</button>
+                    <button class="popup__button popup__button_close link-icon" type="button" aria-label="Закрыть"></button>
                 </form>
             </div>
-
+            <script type="module" src="index.js"></script>
     </body>
 </html>
