@@ -3,7 +3,7 @@
     width: 310px;
     height: 50px;
     background: #ffffff;
-    top: 8.5%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     display: none;
@@ -11,6 +11,7 @@
     justify-content: center;
     z-index: 10;
 }
+
 
 .popup__text {
     font-family: 'Roboto', 'Arial', sans-serif;
