@@ -1,11 +1,11 @@
 .popup {
     position: absolute;
     width: 310px;
-    height: 50px;
+    height: 30px;
     background: #ffffff;
-    top: 11%;
+    top: 120px;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%);
     display: none;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@
 
 @media (max-width: 470px) {
     .popup {
-        top: 8.5px;
+        top: 85px;
     }
 }
 
