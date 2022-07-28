@@ -1,5 +1,6 @@
 @import url(./vendor/normalize.css);
 @import url(./helpers/mixins.css);
+@import url(./blocks/page.css);
 @import url(./blocks/header.css);
 @import url(./blocks/navigation.css);
 @import url(./blocks/cards.css);
