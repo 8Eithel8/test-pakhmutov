@@ -79,6 +79,12 @@
     }
 }
 
+@media (max-width: 470px) {
+    .header__nav {
+        top: 128px;
+    }
+}
+
 .header__navigation-links {
     list-style: none;
     display: flex;
